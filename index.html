@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AngularJS Simple App</title>
+        
+        <link rel="author" href="humans.txt">
+
+        <script src="lib/angular/angular.js"></script>
+        <script src="js/controllers.js"></script>
+    </head>
+    <body>
+        
+       <div ng-controller = "MyController">       	
+			<h1>{{ author.name }}</h1>
+			<p>Title: {{ author.title + ' ' + author.company}} </p>
+       </div>
+       
+    </body>
+</html>
